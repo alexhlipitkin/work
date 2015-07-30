@@ -3,11 +3,63 @@
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
  */
+body {
+  background-color: #E9E9E9;
+  font-family: Arial,Helvetica,sans-serif; 
+  font-size: 26px;
+  font-weight: 400;
+}
+
+div#cont {
+  margin-top: 20px;
+  margin-left: 182px;
+  width: 780px;
+  height: 620px;
+  background-color: white;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+  margin-bottom: 18px;
+  box-shadow: 2px 2px 3px 0px #D0D0D0;
+
+}
+
+.td_ava {
+  padding-top: 15px;
+}
+
+.td_ava img {
+  width: 476;
+  height: 466;
+}
+
+.r_menu {
+  list-style:none;
+  font-size: 32px;
+  margin-top: 22px;
+}
+
+.r_menu a {
+ color: #1464F6; 
+}
+
+.r_menu li {
+  padding-top: 16px;
+}
+
+table {
+/*  border: 1px double black; */
+  padding-top: 18px;
+  padding-left: 3px;
+  width: 100%; /* Ширина таблицы */
+}

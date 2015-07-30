@@ -1,4 +1,5 @@
 Work::Application.routes.draw do
+  root 'author#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
